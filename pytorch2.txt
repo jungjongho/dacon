@@ -40,3 +40,18 @@ RuntimeError: all elements of input should be between 0 and 1
 
 추후에는 validation을 섞어서 실제 테스트 데이터에서 점수를 뽑아볼것이다.
 
+
+1월 10일
+
+1. 초기값에 Xavier을 적용시켰다. sigmoid를 사용하는 경우는 Xavier, ReLU를 사용하는경우에는 He초기값을 사용하는것이 좋다고한다.
+
+2. validation 정확도와 정답table을 뽑아냈다.
+
+3. 역시 자료형을 맞춰주는건 항상 짜증난다.
+
+4. 각 에폭마다 test와 validation의 정확도를 비교해보려한다.
+
+5. 모델 저장과 불러오기 에대한 간단한 실습
+
+6.시각화를 해보려 남은시간을 소모했으나 과연 가능할지...
+
