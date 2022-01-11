@@ -55,3 +55,10 @@ RuntimeError: all elements of input should be between 0 and 1
 
 6.시각화를 해보려 남은시간을 소모했으나 과연 가능할지...
 
+1월 11일
+
+1. 간단히 f1_score와 accuracy를 train과 validation을 나눠서 시각화했음
+
+2 . colab에 save_and_load코드와 visualize두 코드를 합쳐서 모델을 돌리기 시도
+
+3. 
