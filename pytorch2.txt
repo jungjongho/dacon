@@ -86,4 +86,8 @@ RuntimeError: all elements of input should be between 0 and 1
 
 범주형 데이터를 patsy패키지를 이용하여 원핫벡터로 변경한뒤 모델에 넣어보려했으나 너무 많은 더미데이터가 발생하고 궁극적으로 수많은 원핫 벡터를 학습시킬 모델을 만들기 어렵다는 생각에 이 방법은 포기하고 다른 방법을 찾아본다.
 
+1월 20일 
+너무 데이터의 column이 많은 탓인가? 라고 생각하여 feature_importance를 이용하여 변수들을 선정할 계획을 세우고
+
+범주형 데이터에 강력한 모습을 보인다는 catboost를 찾아냈다. 다음에는 catboost를 사용하여 새로운 모델을 만들어 보려한다.
 
