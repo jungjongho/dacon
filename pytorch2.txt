@@ -91,3 +91,8 @@ RuntimeError: all elements of input should be between 0 and 1
 
 범주형 데이터에 강력한 모습을 보인다는 catboost를 찾아냈다. 다음에는 catboost를 사용하여 새로운 모델을 만들어 보려한다.
 
+1월 21일 
+데이터의 feature_importance를 추출해낸결과 2개의 아예 의미 없는데이터 (1,0 중에 0데이터만 있는경우 (표준편차가 0인경우))를 걸러냇고
+
+다른 분의 모델을 찾아보다가 threshold를 0.5에서 0.4로 내리셔서 재현율을 상승시키는 경우를 보았다 이를 내가 만든 모델에도 적용시키면 어떻게될지 궁금해서 시도해봄
+
